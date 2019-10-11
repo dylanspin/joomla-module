@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<extension type="module" version="3.9.0" client="site" method="upgrade">
+    <name>Footer Informatie</name>
+    <author>Dylan</author>
+    <version>1.0.0</version>
+    <creationDate>September 2019</creationDate>
+    <description>Footer informatie</description>
+    <files>
+        <filename>mod_infor.xml</filename>
+        <filename module="mod_infor">mod_infor.php</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>css/style.css</filename>
+        <filename>css/index.html</filename>
+        <filename>js/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="font" type="text" label="Font size in pixels" default="15"/>
+                <field name="aantal" type="number" label="Aantal vakken" max="10" default="1"></field>
+                <field name="social" type="radio" class="btn-group btn-group-yesno" label="social media" default="true">
+                    <option value="true">wel</option>
+                    <option value="false">geen</option>
+                </field>
+                <field name="grote" type="text" label="Grote size Social" default="15"/>
+                <field name="kleur" type="list" label="social media" default="wit">
+                    <option value="black">zwart</option>
+                    <option value="white">wit</option>
+                    <option value="lightblue">blauw</option>
+                </field>
+                <field name="facebook" type="text" label="link Facebook"></field>
+                <field name="instagram" type="text" label="link Instagram"></field>
+                <field name="twitter" type="text" label="link Twitter"></field>
+                <field name="linkedin" type="text" label="link LinkedIn"></field>
+                <field name="youtube" type="text" label="link Youtube"></field>
+
+            </fieldset>
+        </fields>
+    </config>
+</extension>

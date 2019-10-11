@@ -1,0 +1,21 @@
+.informatie_{
+  position: relative;
+  left: 50%;
+  transform:translate(-50%,0px);
+  background-color:white;
+  color:black;
+  min-height: 400px;
+  height: auto;
+  width: 100vw;
+  text-align: center;
+}
+.grote_:hover{
+  transform: scale(1.08,1.08);
+}
+.vak_{
+  float: left;
+  margin-left: 5px;
+  height: 100px;
+  width: 50px;
+  background-color: black;
+}
