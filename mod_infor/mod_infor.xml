@@ -15,6 +15,7 @@
         <filename>css/style.css</filename>
         <filename>css/index.html</filename>
         <filename>js/index.html</filename>
+        <filename>js/javascript.js</filename>
     </files>
     <config>
         <fields name="params">
