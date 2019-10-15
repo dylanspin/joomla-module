@@ -13,8 +13,30 @@
   transform: scale(1.08,1.08);
 }
 .vak_{
+  margin-left: 20px;
+  resize: both;
+  overflow: auto;
   position: absolute;
-  height: 100px;
-  width: 50px;
+  height: 200px;
+  width: 100px;
   background-color: black;
+}
+.sleep_{
+  width: 100%;
+  height: 30px;
+  background-color: gray;
+}
+.edit_{
+  width: 100%;
+  height: 30px;
+  background-color: red;
+}
+.social_{
+  width: 200px;
+}
+input[type="color"].kleur_{
+  width: 40px;
+}
+.hidden_{
+  display: none;
 }
